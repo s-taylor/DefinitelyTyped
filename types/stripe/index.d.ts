@@ -27,6 +27,7 @@
 //                 Oleg Vaskevich <https://github.com/vaskevich>
 //                 Dylan Aspden <https://github.com/dhaspden>
 //                 Ethan Setnik <https://github.com/esetnik>
+//                 Simon Taylor <https://github.com/s-taylor>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.3
 
