@@ -6552,6 +6552,16 @@ declare namespace Stripe {
             id?: string;
 
             /**
+             * Define thresholds at which an invoice will be sent, and the related subscription advanced to a new billing period.
+             */
+            billing_thresholds: null | {
+                /**
+                 * Usage threshold that triggers the subscription to create an invoice
+                 */
+                usage_gte: number;
+            };
+
+            /**
              * Delete all usage for a given subscription item. Only allowed when deleted is set to true and the current plan’s
              * usage_type is metered.
              */
